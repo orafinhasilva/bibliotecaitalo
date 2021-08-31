@@ -1,0 +1,212 @@
+@charset "UTF-8";
+
+body {
+
+  display: block;
+  width: 1280px;
+  margin: 0 auto;
+
+}
+
+
+#divBusca{
+  background-color:#E0EEEE;
+  border:solid 2px #5F9EA0;
+  border-radius:10px;
+  float: right;
+  margin-top: -10px;
+  padding: 30px 0px 0px 40px;
+  width:300px;
+  height:8px;
+}
+
+#txtBusca{
+  float:left;
+  background-color:transparent;
+  font-size:18px;
+  border:none;
+  margin-top: -28px;
+  height:32px;
+  width:191px;
+}
+
+#btnBusca{
+  border:none;
+  color: #FFFFFF;
+  float:left;
+  padding-left:-90px;
+  height:32px;
+  border-radius:0 7px 7px 0;
+  margin-top: -28px;
+  margin-right: 10px;
+  width:70px;
+  font-weight:bold;
+  background:#003b3f;
+}
+
+
+
+
+#container { 
+    width: 1278px; 
+    background: #FFFFFF; 
+    margin: 0 auto; 
+    border: 1px solid #06575c; 
+    text-align: left; 
+} 
+#sidebar { 
+    float: right; 
+    width: 200px; 
+    background: #f9f9f9; 
+    padding: 15px 10px 69px 20px; 
+} 
+#mainContent { 
+    margin: 0 0 0 250px; 
+    padding: 0 20px 20px 20px; 
+}
+
+#rodape{
+   font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  color:#FFFFFF;
+  text-align: center;
+  padding-top: 30px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  width:1280px;
+  height:50px;
+  background-color:#003b3d;
+
+  }
+
+/* TITULO DA PÁGINA  */
+h1 {
+
+  font-family: "Open Sans", sans-serif;
+  font-size: 40px;
+  color:#FFFFFF;
+  padding: 140px 80px 30px 90px;
+  text-align: center;
+  text-transform: uppercase;
+  animation: bounce 1s infinite alternate; /* ANIMAÇÃO BOUCE  */
+  -webkit-animation: bounce 1s infinite alternate;
+}
+
+
+h3 {
+
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  color:#06575c;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+h4 {
+
+  font-family: "Open Sans", sans-serif;
+  font-size: 22px;
+  color:#06575c;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+
+h6 {
+
+  font-family: "Open Sans", sans-serif;
+  font-size: 15px;
+  color:#000;
+
+  text-align: center;
+  text-transform: uppercase;
+}
+p {
+
+  font-family: "Open Sans", sans-serif;
+  font-size: 12px;
+  color:#1b1b1b;
+
+}
+
+
+/* ANIMAÇÃO BOUCE CONTROLE  */
+
+@keyframes bounce {
+  from {
+    transform: translateY(10px);
+  }
+  to {
+    transform: translateY(-10px);
+
+  }
+
+}
+
+
+
+.topo {
+  background: rgb(0,68,73);
+  background: linear-gradient(90deg, rgba(0,68,73,1) 0%, rgba(0,132,140,1) 73%, rgba(0,132,140,1) 100%);
+  margin: 0 auto;
+  width: 1260px;
+  height: 300px;
+  background-color: #f0efef;
+  padding: 0px 0px 20px 20px
+	}
+
+.logo {
+  margin-left: 100px;
+  margin-top: -200px;
+	}
+
+
+#menupagina
+{
+	background: #003b3f;
+	display: center;
+	height: 15px;
+	padding:5px 10px 40px 40px; 
+	margin: 55px 0px 0px 0px;
+
+}
+
+.menu{
+list-style:none;
+border:0px solid #c0c0c0;
+padding-top: 0px;
+padding-left: 400px;
+}
+
+.menu li{
+position:relative;
+float:left;
+border-right:1px solid #008c95;
+}
+
+.menu li a{ 
+	font-family: "Open Sans", sans-serif;
+    font-size: 20px;
+	color:#FFF; 
+	text-transform: uppercase;
+	text-decoration:none; 
+	padding:5px 16px; 
+
+}
+
+.menu li a.active{ 
+	font-family: "Open Sans", sans-serif;
+    font-size: 20px;
+    background:#003538;
+	color:#FFF; 
+	text-transform: uppercase;
+	text-decoration:none; 
+	padding:5px 10px; 
+	
+	}
+
+
+.menu li a:hover{
+background:#002022;
+color:#fff;
+}
